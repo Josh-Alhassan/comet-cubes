@@ -9,6 +9,8 @@
     height: 100vh;
     width: 100%;
     background-image: url(Images/Home-4.jpg);
+    /* background: rgb(2,0,36); */
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.7931547619047619) 35%, rgba(0,212,255,1) 100%); */
     background-size: cover;
     background-position: center;
 }
@@ -20,10 +22,12 @@ nav {
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
+
+    background: rgba(2,0,36,.5);
 }
 
 .logo {
-    color:black;
+    color:white;
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
@@ -40,7 +44,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
@@ -49,4 +53,19 @@ nav ul li a {
 nav ul li a:hover {
     color: #f9004d;
     transition: .4s;
+}
+
+.btn {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
 }
