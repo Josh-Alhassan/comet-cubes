@@ -193,6 +193,10 @@ img{
   color: var(--first-color);
 }
 
+.logo {
+  width: 250px;
+}
+
 .nav__link{
   transition: .3s;
 }
