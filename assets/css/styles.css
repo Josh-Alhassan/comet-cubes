@@ -569,3 +569,91 @@ img{
         height: 640px;
     }
 }
+
+
+/* <!--========== History Page ==========--> */
+
+.history-main {
+  padding: 32px 100px;
+}
+
+.history-header {
+  margin-bottom: 42px;
+}
+
+.header_logo {
+  /* background-color: orangered; */
+  width: 100%;
+
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_inspiration {
+  width: 200px;
+}
+
+.header-inspiration {
+  font-size: 48px;
+  color: var(--first-color)
+}
+
+@media screen and (max-width: 768px){
+  .history-main {
+    padding: 38px;
+  }
+  .header-inspiration {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 572px){
+  .header-inspiration {
+    font-size: 32px;
+  }
+  .logo-inspiration {
+    width: 150px
+  }
+
+  .header-logo {
+    gap: 8px;
+  }
+
+  .history-paragraph {
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 423px){
+  .header_logo {
+    flex-direction: column;
+  }
+  
+  .header-inspiration {
+    font-size: 32px;
+  }
+  .logo-inspiration {
+    width: 50px
+  }
+
+  .history-span {
+    color: var(--title-color)
+  }
+}
+
+.history-paragraph {
+  word-spacing: 6px;
+  margin-bottom: 14px;
+}
+
+.history-color {
+  color: var(--first-color);
+}
+
+.mg-btn {
+  border-top: 1px solid var(--title-color);
+  max-width: 100px;
+  margin-bottom: 14px;
+}
